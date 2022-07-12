@@ -10,7 +10,7 @@
 ### The dataset was complete without any null values.
 ### Information regarding department wise employee performances was obtained by calculating the average employee performance and plotting a bar chart(matplotlib) of the same.
 ### Feature importances were delineated by calculating the chi-squared statistic(scikit learn), which indicates the dependance of the feature to the target variable.
-To understand the root cause of the performance issue, The high and low performance employees were compared with their average values for the top 6 important features. From the insights obtained from this, appropriate recommendations were made.
+### To understand the root cause of the performance issue, The high and low performance employees were compared with their average values for the top 6 important features. From the insights obtained from this, appropriate recommendations were made.
 ### Multicollinearity was checked by plotting a heatmap(seaborn) and no strong/ very high correlations were observed.
 ### Imbalance in target variable values were determined using a countplot(seaborn) and an imbalance was present.
 ### In the next part, data pre-processing was done to prepare the data for training and testing the machine learning models.
